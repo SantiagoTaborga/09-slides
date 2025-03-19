@@ -1,0 +1,28 @@
+---
+title: "xaringan Presentations"
+subtitle: "Data Analysis"
+author: "Santiago Taborga"
+institute: "American University"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: [ninjutsu, hygge-duke, lucy-fonts]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      ratio: "16:9"
+---
+
+```{r setup, include = FALSE}
+library(knitr)
+library(rmdformats)
+
+knitr::opts_chunk$set(
+  echo = FALSE, prompt = FALSE,
+  tidy = FALSE, comment = NA,
+  message = FALSE, warning = FALSE,
+  dev = 'CairoSVG',
+  fig.align = 'center'
+)
+```
+
