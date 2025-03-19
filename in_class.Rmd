@@ -1,0 +1,49 @@
+---
+title: "in_class"
+author: "Santiago Taborga"
+institute: "st6374a@american.edu"
+output:
+  beamer_presentation:
+    theme: "Szeged"
+    colortheme: "beaver"
+classoption: "aspectratio=169"
+fontsize: 12pt
+date: '2025-03-19'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  message = FALSE,
+  warning = FALSE,
+  fig.align = 'center'
+  )
+
+library(tidyverse)
+library(knitr)
+```
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
